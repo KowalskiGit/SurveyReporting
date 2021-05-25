@@ -133,7 +133,8 @@ namespace SurveyReporting.Pages
                     runningTotal += avg;
 
                     //For the graph
-                    ouGraphRow.Name = ou[0].ToString();
+                    ouGraphRow.Name = ou[0].ToString() + " (" + 
+                                      GeneralFunctions.DLookup("Description", "OrganisationUnitsView", $"OrganisationUnitID = '{ou[0].ToString()}'") + ")";
                     ouGraphRow.Value = Math.Round((decimal)avg, 2);
                     ouGraph.Add(ouGraphRow);
                 }
