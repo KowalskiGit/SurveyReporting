@@ -1,0 +1,126 @@
+﻿body {
+}
+
+.MainMenuText {
+    font-size: small;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #FF0000;
+
+    left: 0;
+    line-height: 30px;
+    margin: auto;
+    margin-top: 85px;
+    position: absolute;
+    top: 0%;
+    width: 170px;
+}
+
+
+.MainCaption {
+    left: 0;
+    line-height: 100px;
+    margin: auto;
+    margin-top: 0px;
+    position: absolute;
+    top: -1%; 
+    width: 100%;
+}
+    
+.menubutton {
+    height: 50px;
+    width: 250px;
+    font-size: large;
+}
+
+
+table.maintable
+{
+    margin-left:auto; 
+    margin-right:auto;
+    vertical-align: middle;
+    width:500px;
+    height:300px;
+}
+
+.maintable tr
+{
+    vertical-align:middle;
+}
+
+.maintable td
+{
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+
+table.filtertable {
+    border-width: 0 0 1px 1px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-style: solid;
+    font-size: small;
+}
+ 
+.filtertable td, .filtertable th
+{
+    margin: 0;
+    padding: 3px;
+    border-width: 1px 1px 0 0;
+    border-style: solid;
+    background-color: #FFFFE1;
+}
+
+table.emailtable {
+    border-width: 0 0 1px 1px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-style: solid;
+    font-size: small;
+}
+ 
+.emailtable td, .emailtable th
+{
+    margin: 0;
+    padding: 3px;
+    border-width: 1px 1px 0 0;
+    border-style: solid;
+}
+
+.dataViews {   
+    width: 100%;   
+    background-color: #fff;   
+    margin: 5px 0 10px 0;   
+    border: solid 1px #525252;   
+    border-collapse:collapse;   
+    margin-left: auto;
+    margin-right: auto;
+}  
+.dataViews td {   
+    padding: 2px;   
+    border: solid 1px #c1c1c1;   
+    color: #717171;   
+}  
+.dataViews th {   
+    padding: 4px 2px;   
+    color: #fff;   
+    background: #424242 url(grd_head.png) repeat-x top;   
+    border-left: solid 1px #525252;   
+    font-size: 0.9em;   
+}  
+.dataViews .alt { background: #fcfcfc url(grd_alt.png) repeat-x top; }  
+.dataViews .pgr { background: #424242 url(grd_pgr.png) repeat-x top; }  
+.dataViews .pgr table { margin: 5px 0; }  
+.dataViews .pgr td {   
+    border-width: 0;   
+    padding: 0 6px;   
+    border-left: solid 1px #666;   
+    font-weight: bold;   
+    color: #fff;   
+    line-height: 12px;   
+ }     
+.dataViews .pgr a { color: #666; text-decoration: none; }  
+.dataViews .pgr a:hover { color: #000; text-decoration: none; }  
+.dataViews-header a { color: White; font-weight: bold; }

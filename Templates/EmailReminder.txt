@@ -1,0 +1,15 @@
+﻿Dear <%Recipient.FullName%>,
+            
+This serves as a reminder to you as one of our valued Clients. It would be appreciated it if you could take a few minutes to give your objective assessment of the service provided by the PTM Section to you by completing the enclosed survey. All comments/remarks are welcome. Please note that you can only take the survey once. Once you have started the survey it must be completed as you cannot come back later to complete it.
+            
+You may access the survey, by clicking the following link: 
+    http://172.29.2.66:99/SurveyManager/
+            
+Use the following details to login: 
+    User name: <%Recipient.EmailAddress%>
+    Password: <%Recipient.DecryptedPassword%>
+            
+For queries, please contact Rahim Khan on:
+Tel. no.: +27 13 693 3198
+Mobile:   +27 82 416 1708
+Email:    rahim.khan@eskom.co.za

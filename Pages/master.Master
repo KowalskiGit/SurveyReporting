@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.Master.cs" Inherits="SurveyReporting.Site1" %>
+
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head runat="server">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Survey Reporting | Eskom</title>
+
+		<link rel="stylesheet" type="text/css" href="../Styles/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="../Styles/style.css">
+
+		<script type="text/javascript" src="/Scripts/jquery-3.1.0.min.js"></script>
+		<script type="text/javascript" src="/Scripts/script.js"></script>
+
+		<asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+	</head>
+	<body>
+		<form id="form1" runat="server">
+			<div class="header">
+				<div class="container">
+
+					<div class="row">
+						<div class="col-xs-4">
+							<div class="header__logo">
+								<img src="../images/eskom-logo.png" alt="Eskom">
+							</div>
+						</div>
+						<div class="col-xs-4 header--center">
+							<h1 class="header__title">Survey Reporting</h1>
+						</div>
+						<div class="col-xs-4 header--right">
+							<div class="header__menu">
+								<a href="../Default.aspx">
+									<i class="fa fa-bars"></i>
+									Main Menu
+								</a>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+
+			<div id="dynamicContent" class="container-fluid">
+
+				<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+			
+			</div>
+		</form>
+	</body>
+</html>
+
