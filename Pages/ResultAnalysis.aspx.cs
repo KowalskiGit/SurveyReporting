@@ -99,7 +99,8 @@ namespace SurveyReporting.Pages
                 }
 
                 //Get Avg ratings per OU
-                sql = @"SELECT CategoryName, OrganisationUnit, Avg(Rating) Rating, Count(Distinct concat(QuestionID, ContactPersonID)) AS NoOfSurveys
+                sql = @"SELECT CategoryName, OrganisationUnit, Avg(Rating) Rating, 
+                               Count(Distinct (cast(QuestionID as varchar) + cast(ContactPersonID as varchar))) AS NoOfSurveys
                         FROM SurveysPerTaskView
                         INNER JOIN SurveyRecipientQuestionResponses A on SurveysPerTaskView.SurveyID = A.SurveyID 
                         INNER JOIN Questions Q on A.QuestionID = Q.ID";
